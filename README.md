@@ -46,10 +46,10 @@ CREATE TABLE peminjaman (
    - Git
      
 #### 2. Buat Proyek CodeIgniter 4 Baru
-
-   composer create-project codeigniter4/appstarter backend_perpustakaan 
+```php
+   composer create-project codeigniter4/appstarter backend_perpustakaan
     cd backend_perpustakaan
-
+```
 #### 3. Konfigurasi Database
 
 
@@ -161,12 +161,15 @@ Akses melalui browser atau Postman:
 ### 🎨 FRONTEND
 #### 1.  Install Laravel
    Melalui Terminal
-    composer create-priject laravel/laravel frontens-uas-230102038
+```php
+composer create-priject laravel/laravel frontens-uas-230102038
+```
+
    Melalui Laragon
-    - Buka Laragon
-    - Klik kanan
-    - Quick app
-    - Laravel
+   - Buka Laragon
+   - Klik kanan
+   - Quick app
+   - Laravel
 #### 2. Install Dependency Laravel
    ```php
    composer install
